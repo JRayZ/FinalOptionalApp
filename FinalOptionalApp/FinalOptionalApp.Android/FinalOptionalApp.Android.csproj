@@ -96,7 +96,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\anxiaty_image.png" />
+    <AndroidResource Include="Resources\drawable\anxiety_image.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\back_icon.png" />

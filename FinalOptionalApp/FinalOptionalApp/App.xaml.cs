@@ -28,10 +28,10 @@ namespace FinalOptionalApp
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainTabbedPage>(Navigation.Main);
+            containerRegistry.RegisterForNavigation<HomeTabbedPage>(Navigation.Main);
 
-            containerRegistry.RegisterForNavigation<HomePage, HomeViewModel>(Navigation.Home);
-            containerRegistry.RegisterForNavigation<DetailPage, DetailViewModel>(Navigation.Detail);
+            containerRegistry.RegisterForNavigation<MainHomePage, HomeViewModel>(Navigation.Home);
+            containerRegistry.RegisterForNavigation<DetailHomePage, DetailViewModel>(Navigation.Detail);
         }
     }
 }

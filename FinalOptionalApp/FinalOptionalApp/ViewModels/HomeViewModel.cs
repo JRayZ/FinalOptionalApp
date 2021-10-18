@@ -16,7 +16,7 @@ namespace FinalOptionalApp.ViewModels
 
         public QuickHelpItem BreatheQuickItem { get; set; }
         public QuickHelpItem SleepQuickItem { get; set; }
-        public QuickHelpItem AnxiatyQuickItem { get; set; }
+        public QuickHelpItem AnxietyQuickItem { get; set; }
         public QuickHelpItem StressQuickItem { get; set; }
         public QuickHelpItem PenguinQuickItem { get; set; }
 
@@ -31,7 +31,7 @@ namespace FinalOptionalApp.ViewModels
 
             BreatheQuickItem = new QuickHelpItem("breathe_image.png", "Breathe");
             SleepQuickItem = new QuickHelpItem("meditation_icon.png", "Sleep");
-            AnxiatyQuickItem = new QuickHelpItem("anxiaty_image.png", "Anxiaty");
+            AnxietyQuickItem = new QuickHelpItem("anxiety_image.png", "Anxiety");
             StressQuickItem = new QuickHelpItem("stress_image.png", "Stress");
             PenguinQuickItem = new QuickHelpItem("penguin_icon.jpg", "Penguin");
 

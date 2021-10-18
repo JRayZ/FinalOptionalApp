@@ -13,7 +13,7 @@
             <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*,*">
                 <views:QuickHelpItem Grid.Column="0" BindingContext="{Binding BreatheQuickItem}"/>
                 <views:QuickHelpItem Grid.Column="1" BindingContext="{Binding SleepQuickItem}"/>
-                <views:QuickHelpItem Grid.Column="2" BindingContext="{Binding AnxiatyQuickItem}"/>
+                <views:QuickHelpItem Grid.Column="2" BindingContext="{Binding AnxietyQuickItem}"/>
                 <views:QuickHelpItem Grid.Column="3" BindingContext="{Binding StressQuickItem}"/>
                 <views:QuickHelpItem Grid.Column="4" BindingContext="{Binding PenguinQuickItem}"
             </Grid>
